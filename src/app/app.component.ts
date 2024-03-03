@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public appPages = [
-    { title: 'Home', url: '/home', icon: 'mail' },
-    { title: 'Contact', url: '/folder/contact', icon: 'paper-plane' },
-    { title: 'About Me', url: '/folder/about', icon: 'heart' }
+    { title: 'Home', path:'home' ,url: '/home', icon: 'mail' },
+    { title: 'Contact', path:'contact-me', url: '/contact-me', icon: 'paper-plane' },
+    { title: 'About Me', path:'about-me' ,url: '/about-me', icon: 'heart' }
   ];
   public labels = ['Deep Learning', 'Generative AI', 'Large Language Models', 'AWS', 'SageMaker'];
   constructor() {}
